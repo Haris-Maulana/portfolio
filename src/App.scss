@@ -1,0 +1,32 @@
+:root {
+  
+--font-Title: 'Montserrat', sans-serif;
+--font-Heading: 'Montserrat Alternates', sans-serif;
+--font-Paragraph: 'Poppins', sans-serif;
+
+--font-weight-thin : 300;
+--font-weight-regular : 400;
+--font-weight-bold :700;
+--font-weight-black : 900;
+}
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-Paragraph);
+  scroll-behavior: smooth;
+  background-color: #F7F4F3;
+}
+
+a, a:visited, a:focus, a:hover {
+  text-decoration: none;
+}

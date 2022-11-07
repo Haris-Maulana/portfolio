@@ -1,0 +1,34 @@
+.container-header {
+  width: 100%;
+  display: flex;
+  background-color: #1b1b1b;
+}
+
+.particle {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.particle h1{
+  position: absolute;
+  color: white;
+  font-size: 4rem;
+  font-weight: 300;
+  cursor: default;
+}
+.particle span{
+  color:#4392F1;
+}
+
+#tsparticles {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
