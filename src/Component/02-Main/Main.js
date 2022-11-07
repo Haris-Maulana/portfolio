@@ -1,5 +1,5 @@
 import "./Main.scss";
-import NewMe from "../../Assets/img/Image-Of-Me.png";
+import NewMe from "../../Assets/img/Image-Of-Me.png"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
