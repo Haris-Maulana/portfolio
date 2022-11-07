@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Haris-Maulana/portfolio/static/css/main.962a2b90.css",
+    "main.js": "/Haris-Maulana/portfolio/static/js/main.20ebb2b1.js",
+    "static/media/Image-Of-Me.png": "/Haris-Maulana/portfolio/static/media/Image-Of-Me.a0d53654296dcd8662df.png",
+    "index.html": "/Haris-Maulana/portfolio/index.html",
+    "main.962a2b90.css.map": "/Haris-Maulana/portfolio/static/css/main.962a2b90.css.map",
+    "main.20ebb2b1.js.map": "/Haris-Maulana/portfolio/static/js/main.20ebb2b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.962a2b90.css",
+    "static/js/main.20ebb2b1.js"
+  ]
+}
