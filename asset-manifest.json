@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Haris-Maulana/portfolio.git/static/css/main.962a2b90.css",
-    "main.js": "/Haris-Maulana/portfolio.git/static/js/main.f21aa83c.js",
-    "static/media/Image-Of-Me.png": "/Haris-Maulana/portfolio.git/static/media/Image-Of-Me.a0d53654296dcd8662df.png",
-    "index.html": "/Haris-Maulana/portfolio.git/index.html",
-    "main.962a2b90.css.map": "/Haris-Maulana/portfolio.git/static/css/main.962a2b90.css.map",
-    "main.f21aa83c.js.map": "/Haris-Maulana/portfolio.git/static/js/main.f21aa83c.js.map"
+    "main.css": "/Haris-Maulana/portfolio/static/css/main.962a2b90.css",
+    "main.js": "/Haris-Maulana/portfolio/static/js/main.a8b03eb0.js",
+    "static/media/Image-Of-Me.png": "/Haris-Maulana/portfolio/static/media/Image-Of-Me.a0d53654296dcd8662df.png",
+    "index.html": "/Haris-Maulana/portfolio/index.html",
+    "main.962a2b90.css.map": "/Haris-Maulana/portfolio/static/css/main.962a2b90.css.map",
+    "main.a8b03eb0.js.map": "/Haris-Maulana/portfolio/static/js/main.a8b03eb0.js.map"
   },
   "entrypoints": [
     "static/css/main.962a2b90.css",
-    "static/js/main.f21aa83c.js"
+    "static/js/main.a8b03eb0.js"
   ]
 }
