@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://github.com/Haris-Maulana/portfolio",
+  "homepage": "https://github.com/Haris-Maulana/portfolio.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
