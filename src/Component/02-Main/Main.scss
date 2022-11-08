@@ -5,12 +5,33 @@
 
 .card h2{
   text-align: center;
-  font-size: 3.125rem;
+  font-size: 3.725rem;
   font-weight: 300;
   font-family: var(--font-Title);
 }
 
 .card p{
-  line-height: 3rem;
+  line-height: 3.75rem;
+  font-size: 1.25rem;
   text-align: justify;
+}
+
+.img-1 {
+  display: flex;
+}
+
+.img-2 {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .card {
+    width: 90%;
+  }
+  .img-1{
+    display: none;
+  }
+  .img-2{
+    display: flex;
+  }
 }
