@@ -11,63 +11,31 @@ const Main = () => {
 
   return (
     <>
-      <section className="card first-card">
+      <section className="card">
         <div id="profile">
           <h2>Profile</h2>
-          <p data-aos="fade-right" data-aos-duration="1000">
-            Hi!, my name is <b>Haris Maulana Salim</b> I'm from <b>Indonesia</b>
-            . I was born on 21 February 2000. When i was a kid, i wanted to work
-            at the office and be an IT guy, but destiny said another when i was
-            18 i became a driver because of financial issues, but when i reached
-            20 I realized that there is still hope to become an office guy that
-            has an average life. At that moment i studied so hard to become an
-            IT guy and my choice was to become a frontend developer. <br />
-            <b>My journey</b> was kinda though like any other with
-            self-learning. i can't even go to sleep when i'm not fully
-            understanding what every code that i wrote . My first learning to
-            become a frontend developer started with HTML and CSS and it was
-            such an "easy task" I said but when javascript come i take my word
-            for saying that. After some time i feel more
-            <img
-              className="img-1"
-              data-aos="zoom-in-right"
-              data-aos-duration="1000"
-              src={NewMe}
-              alt=""
-              style={{
-                width: "200px",
-                float: "right",
-                height: "300px",
-                marginLeft: "1.1875rem",
-                marginTop: "1.1875rem",
-                border: "2px solid #1b1b1b",
-                borderRadius: "15px",
-                backgroundColor: "#1b1b1b",
-              }}
-            />
-            comfortable with javascript and try javascript framework R  eact. also I was
-            trying to learn Backends like Nodejs, MySQL, MongoDB, and Express
-            but im not very good at it. And when im 22 I try learning how to use
-            Git and GitHub I try to create my first project and try to think
-            what if I work with a team and create some components with them in
-            22 i was learning how to <b>work in a team</b>.
-            <img
-              className="img-2"
-              data-aos="zoom-in-right"
-              data-aos-duration="1000"
-              src={NewMe}
-              alt=""
-              style={{
-                width: "200px",
-                height: "300px",
-                marginLeft: "1.1875rem",
-                marginTop: "1.1875rem",
-                border: "2px solid #1b1b1b",
-                borderRadius: "15px",
-                backgroundColor: "#1b1b1b",
-              }}
-            />
-          </p>
+          <div className="info-container">
+            <div className="img-container">
+              <img
+                className="img-1"
+                data-aos="zoom-in-right"
+                data-aos-duration="1000"
+                src={NewMe}
+                alt=""
+              />
+            </div>
+            <div className="para-container">
+              <p data-aos="fade-right" data-aos-duration="1000">
+                I am a graduate of Public High School majoring Natural
+                science.In my free time i am a self-taught programmer and
+                familiar with programming languages such as javascript and it's
+                framewok like React and Next and for my structure and styling i
+                always use HTML with CSS or SASS. Also i can use framework such
+                as Tailwind. I am a critical thinker with good management of
+                time.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </>

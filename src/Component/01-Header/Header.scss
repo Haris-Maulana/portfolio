@@ -1,7 +1,13 @@
+:root {
+  --bg-color : #fff;
+  --header-text : #1b1b1b;
+}
+
 .container-header {
   width: 100%;
   display: flex;
-  background-color: #1b1b1b;
+  background-color: var(--bg-color);
+  transition: 300ms;
 }
 
 .particle {
@@ -13,13 +19,34 @@
 
 .particle h1{
   position: absolute;
-  color: white;
+  color: var(--header-text);
   font-size: 5rem;
   font-weight: 300;
   cursor: default;
 }
 .particle span{
   color:#4392F1;
+}
+
+.particle button {
+  display: flex;
+  position: absolute;
+  bottom: 10vh;
+  width: 25%;
+  height: 50px;
+  background: #4392F1;
+  color: white;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+  border:none;
+}
+
+.particle button:hover {
+  background-color: #1b1b1b;
 }
 
 #tsparticles {
@@ -31,4 +58,10 @@
   margin: 0;
   padding: 0;
   z-index: 0;
+}
+
+@media (max-width:640px) {
+  .particle h1 {
+    font-size: 2rem;
+  }
 }
