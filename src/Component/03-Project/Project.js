@@ -6,6 +6,7 @@ const Project = () => {
       <div className="wrapper-pj">
         <h2>Project</h2>
       </div>
+      <div className="div"></div>
     </div>
   );
 }

@@ -27,7 +27,7 @@ const Header = () => {
           <Particle id="tsparticles" />
           <h1 data-aos="fade-right" data-aos-duration="1000">Hello! My Name Is <span> Haris Maulana <br /></span>
           I'm Frontend developer</h1>
-          <button onClick={showParticle}></button>
+          <button onClick={showParticle}>Press Me</button>
         </div>
       </div>
     </>
