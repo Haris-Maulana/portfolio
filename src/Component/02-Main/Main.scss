@@ -1,9 +1,15 @@
+:root {
+  --slider-index : 0;
+}
+
+// Aboout
 .card {
-  width: 70%;
+  width: 90%;
   margin: 10rem auto;
 }
 
-.card h2{
+.card h2 {
+  margin-bottom: 2rem;
   text-align: center;
   font-size: 3.725rem;
   font-weight: 300;
@@ -16,7 +22,7 @@
   align-items: center;
 }
 
-.card p{
+.card p {
   line-height: 3.75rem;
   font-size: 1.25rem;
   text-align: justify;
@@ -24,10 +30,11 @@
 
 .img-1 {
   display: block;
-  width: 300px;
-  height: 450px;
+  width: 200px;
+  height: 300px;
   background-color: #1b1b1b;
   border-radius: 15px;
+  margin-bottom: 3rem;
 }
 
 .img-container {
@@ -42,7 +49,47 @@
   width: 50%;
 }
 
-@media (max-width:640px) {
+// Slider
+
+.slider-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.Slider {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+  overflow: hidden;
+ 
+}
+
+.title-program {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.programUse {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.programlang {
+  margin-right: 5rem;
+  padding: 1rem;
+  transition: 600ms ease-in-out;
+  transform: translate(calc(var(--slider-index) * -100%));
+}
+
+.icons-program {
+  font-size: 10rem;
+}
+
+@media (max-width: 640px) {
   .card {
     width: 100%;
   }
@@ -59,5 +106,8 @@
   }
   .para-container {
     width: 90%;
+  }
+  .Slider {
+    overflow-x: auto;
   }
 }

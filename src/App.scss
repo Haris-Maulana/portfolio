@@ -8,12 +8,16 @@
 --font-weight-regular : 400;
 --font-weight-bold :700;
 --font-weight-black : 900;
+
+--font-color : #1b1b1b;
+--background-color : #fff;
 }
 
 
 *{
   box-sizing: border-box;
   padding: 0;
+  margin: 0 ;
 }
 
 html {
@@ -24,6 +28,8 @@ body {
   margin: 0;
   font-family: var(--font-Paragraph);
   scroll-behavior: smooth;
+  color: var(--font-color);
+  background-color: var(--background-color);
 }
 
 a, a:visited, a:focus, a:hover {
