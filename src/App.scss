@@ -30,6 +30,7 @@ body {
   scroll-behavior: smooth;
   color: var(--font-color);
   background-color: var(--background-color);
+  overflow-x: hidden;
 }
 
 a, a:visited, a:focus, a:hover {

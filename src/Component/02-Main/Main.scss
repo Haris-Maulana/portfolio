@@ -6,6 +6,7 @@
 .card {
   width: 90%;
   margin: 10rem auto;
+  overflow: hidden;
 }
 
 .card h2 {
@@ -29,6 +30,7 @@
 }
 
 .img-1 {
+  overflow: hidden;
   display: block;
   width: 200px;
   height: 300px;
@@ -55,6 +57,7 @@
   display: flex;
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 .Slider {
