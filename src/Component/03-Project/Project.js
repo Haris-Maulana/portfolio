@@ -35,11 +35,11 @@ const Project = () => {
           </a>
         </div>
         <div className="project-container-row">
-          <a data-aos="fade-right" data-aos-duration="1000" href="https://haris-maulana.github.io/pass-generator/">
+          <a data-aos="fade-right" data-aos-duration="1000" href="https://h-spotify-haris-maulana.vercel.app/">
             <img src={image3} alt="H-passgenerator" />
-            <p> "Password Generator" <br />
-              This website is for password generator that can make <br />
-              TAP TO GO TO THE LINK <br /> STACK : "HTML" "CSS" "Javascript"
+            <p> H-Spotify `On Going` <br />
+              Website that created with an API from spotify and ReactJs that user can play and login into spotify<br />
+              TAP TO GO TO THE LINK <br /> STACK : "React" "Sass" "Node"
             </p>
           </a>
           <a data-aos="fade-left" data-aos-duration="1000" href="https://my-portfolio-two-neon.vercel.app/">
