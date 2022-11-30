@@ -28,10 +28,12 @@ const Project = () => {
               TAP TO GO TO THE LINK <br /> STACK : "React" "Node" "Sass"
             </p>
           </a>
-          <a data-aos="fade-left" data-aos-duration="1000" href="https://coffee-shop-neon.vercel.app/">
+          <a data-aos="fade-left" data-aos-duration="1000" href="https://coffee-project-eight.vercel.app/">
             <img src={image2} alt="H-Coffee" />
-            <p> "Coffee Shop" <br /> Created with simple html to create an attractive website for a simple article about a coffee. <br />
-              TAP TO GO TO THE LINK <br /> STACK : "Html&CSS" "Javascript" "API"</p>
+            <p> "Coffee Shop" <br /> Created with Reactjs and Api from 2 resources to create an attractive website for a simple article about a coffee.
+             <br />
+              TAP TO GO TO THE LINK <br /> STACK : "React", "Api" , "Sass"</p>
+              <br /> (if menu didnt show than my quota for free package is exhaust)
           </a>
         </div>
         <div className="project-container-row">
